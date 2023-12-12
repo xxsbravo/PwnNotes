@@ -1,0 +1,1 @@
+Kerberoasting is **a type of attack that targets the Kerberos authentication process used by Microsoft Active Directory**. In this attack, an attacker can compromise a user account and extract the Kerberos ticket-granting ticket (TGT) that can be used to impersonate the user and gain access to sensitive resources.

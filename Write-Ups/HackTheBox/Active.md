@@ -1,6 +1,8 @@
-#easy
+#easy #SMB 
 
-[**Active**](https://app.hackthebox.com/machines/Active) is a beginner-friendly HackTheBox Lab.
+[**Active**](https://app.hackthebox.com/machines/Active) is an #easy HackTheBox Lab featuring #SMB .
+
+Today, we'll attempt to capture the user flag. 
 
 Lets dig in and hack this thing.
 
@@ -60,7 +62,7 @@ The command results in the following output:
 
 Now lets try to login to each share.
 
-	smbclient -L \\\\10.10.10.100\\ADMIN$
+	smbclient \\\\10.10.10.100\\ADMIN$
 
 Of course, this doesn't work. That would've been too easy:
 
@@ -108,9 +110,7 @@ And below is the password belonging to '**SVC_TGS**'. The password appears to be
 	cpassword="edBSHOwhZLTjt/QS9FeIcJ83mjWA98gw9guKOhJOdcqh+ZGMeXOsQbCpZ3xUj
 	TLfCuNH8pG5aSVYdYw/NglVmQ"
 
-A quick Google Search of 'Groups.xml' mentions something called Group Policy Preferences or GPP. Further research indicates a vulnerability in GPP, allowing us to easily crack the hashed password using a tool called '**gpp-decrypt**'.
-
-## Privilege Escalation
+A quick Google Search of 'Groups.xml' mentions something called Group Policy Preferences or GPP. Further research indicates a vulnerability in GPP, allowing us to easily crack the hashed password using a tool called '**[[gpp-decrypt]]**'.
 
 In an attempt to deobfuscate the password, we pass the password hash as an argument to **gpp-decrypt**, resulting in the following output.
 
@@ -128,5 +128,3 @@ Now, lets perform a login on the Users share, using our newly acquired user-cred
 	Password for [WORKGROUP\SVC_TGS]:
 	Try "help" to get a list of possible commands.
 	smb: \> 
-
-

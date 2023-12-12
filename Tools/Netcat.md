@@ -4,7 +4,8 @@
 
 	nc [options] [hostname] [port]
 
-## Commands
+## Notable Options
+
 	-l
 
 The below command executes **netcat** in listening mode. Doing so creates a server that awaits an inbound connection to be established with said server on a specified [[Port]].

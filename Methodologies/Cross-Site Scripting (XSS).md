@@ -1,0 +1,1 @@
+**Cross-site scripting (XSS)** is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website.

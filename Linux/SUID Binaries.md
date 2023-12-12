@@ -1,0 +1,1 @@
+**SUID** stands for “Set User ID”, and it is *a special type of permission that can be given to a file so the file is always run with the permissions of the owner instead of the user executing it*

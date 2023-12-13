@@ -14,3 +14,7 @@ Like most things in hacking, what you should look for can be broken down into a 
 |*/etc/hostname OR /etc/hosts*|These files may reveal information about the system's network configuration.|
 |*/etc/mysql/my.cnf*|Configuration files for database servers may contain credentials or other sensitive information.|
 |*/etc/nginx/sites-available/default*|Analyzing this file is valuable as it provides insights into the web server's setup, potential misconfigurations, proxy configurations, and other details that can aid in identifying vulnerabilities|
+
+#LFI 
+
+---

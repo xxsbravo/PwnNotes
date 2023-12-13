@@ -1,6 +1,6 @@
 *Tags:* #commands 
 
-Short for '*super user do*', **sudo** is a Linux command allowing users to temporarily elevate their current user accounts to have root privileges.
+Short for '*super user do*', **sudo** is a Linux command allowing users to temporarily elevate their current user accounts to root privileges.
 
 ## Usage
 

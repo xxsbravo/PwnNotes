@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Write-Ups/HackTheBox/Active.md",
+                "file": "Linux/bash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ae4e87fa79944fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Ups/HackTheBox/OnlyForYou.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Commands",
+                "query": "tag:#LFI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Write-Ups/HackTheBox/Active.md",
+                "file": "Write-Ups/HackTheBox/OnlyForYou.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Write-Ups/HackTheBox/Active.md",
+                "file": "Write-Ups/HackTheBox/OnlyForYou.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Write-Ups/HackTheBox/Active.md"
+                "file": "Write-Ups/HackTheBox/OnlyForYou.md"
               }
             }
           }
@@ -146,37 +160,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e64f8c393cd22892",
+  "active": "9ae4e87fa79944fb",
   "lastOpenFiles": [
+    "Methodologies/Local File Inclusion (LFI).md",
+    "Methodologies/Privilege Escalation in Linux.md",
+    "Methodologies/Kerberoasting.md",
+    "Methodologies/Getting a Foothold.md",
+    "Write-Ups/HackTheBox/OnlyForYou.md",
+    "Terminology/Reverse-Proxy.md",
+    "Tools/ssh.md",
+    "Tools/nmap.md",
+    "Linux/bash.md",
+    "Linux/chmod.md",
+    "Linux/env.md",
+    "Linux/ls.md",
+    "Linux/sudo.md",
+    "Linux/SUID Binaries.md",
+    "Linux/systemctl.md",
+    "Methodologies/Cross-Site Scripting (XSS).md",
+    "Terminology/Enumeration.md",
+    "Methodologies/Server-Side Request Forgery (SSRF).md",
+    "Methodologies/Remote Code Execution (RCE).md",
     "Write-Ups/HackTheBox/Active.md",
+    "Tools/smbclient.md",
+    "Linux/ssh.md",
     "Tools/Curl.md",
     "Tools/Ghidra.md",
     "Tools/Gobuster.md",
     "Tools/Hashcat.md",
-    "Tools/nmap.md",
-    "Tools/smbclient.md",
-    "Linux/sudo.md",
-    "Linux/systemctl.md",
-    "Tools/Netcat.md",
-    "Methodologies/Privilege Escalation.md",
-    "Tools/Burpsuite.md",
     "Write-Ups/HackTheBox",
-    "Write-Ups/Untitled.md",
-    "Intrusion Detection System (IDS).md",
-    "Intrusion Detection System (IDS)/Intrusion Prevention System (IPS).md",
     "Intrusion Detection System (IDS)",
     "Write-Ups",
-    "Port Scanner.md",
-    "Hosts.md",
-    "Methodologies/Binary Exploitation.md",
     "Tools",
-    "Untitled.md",
-    "Methodologies/Remote Code Execution (RCE).md",
-    "Methodologies/Server-Side Request Forgery (SSRF).md",
     "Methodologies",
     "Linux",
-    "Linux.md",
-    "Systemctl.md",
     "Methodologies"
   ]
 }

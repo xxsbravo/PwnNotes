@@ -101,7 +101,7 @@ With the newly acquired 'active.htb' directory on our local machine, we browse t
 
 Hmm, very interesting indeed! It seems we have the name of a User on the 'Users' Share, and a password!
 
-The Users username seems to be '**SVC_TGS**'.
+The User's username seems to be '**SVC_TGS**'.
 
 	name="active.htb\SVC_TGS"
 

